@@ -1,2 +1,4 @@
 _site/
 .sass-cache/
+vids/
+.DS_Store
