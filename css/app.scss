@@ -13,4 +13,24 @@
   }
 }
 
+footer {
+	padding: 20px;
+	background-color: #EEE;
+	border-top: #CCC;
+}
+
+.org {
+	max-width: 150px;
+	float: left;
+	margin-right: 20px;
+	.thumbnail {
+		padding: 15px;
+	}
+	img {
+		margin-bottom: 10px;
+	}
+	p {
+		margin-bottom: 0px;
+	}
+}
 /* put SCSS here */
