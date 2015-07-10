@@ -5,4 +5,4 @@ defaults:
       type: "pages"
     values:
       layout: "default"
-      google_analytics_id: "FILL-ME-IN"
+      google_analytics_id: "UA-48399585-23"
