@@ -1,79 +1,80 @@
 ---
 layout: default
 ---
-<header class="code4sa">
-  <nav class="navbar navbar-default navbar-static-top">
-    <div class="container-fluid">
+
+  <nav class="navbar navbar-inverse">
+    <div class="container">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="http://code4sa.org">
-          <img src="/img/code4sa-logo.png" alt="Code for South Africa"></a>
+        <a class="navbar-brand" href="#">
+          Black Sash MAVC Posters
         </a>
       </div>
-      <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a class="twitter" href="https://twitter.com/@Code4SA"><i class="fa fa-twitter fa-2x"></i></a></li>
+      <div id="navbar" class="navbar-static-top">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#press_release">About</a></li>
+          <li><a href="#collection">Collection</a></li>
+          <li><a href="#cleaning">Cleaning</a></li>
+          <li><a href="#analysis">Analysis</a></li>
+          <li><a href="#presentation">Presentation</a></li>
+          <li><a href="#posters">Posters</a></li>
         </ul>
-      </div><!--/.nav-collapse -->
+      </div>
+      <div class="navbar-right">
+        <a href="#" class="navbar-brand-secondary">
+              <img src="/img/code4sa-logo.png">
+          </a>
+      </div>
     </div>
   </nav>
-</header>
-<div class="row" style="padding-bottom: 10px">
+
+<div class="row" style="padding: 20px 0px">
   <div class="col-sm-2 col-sm-offset-8">
     <a class="twitter-share-button" href="https://twitter.com/intent/tweet">Tweet</a>
   </div>
   <div class="col-sm-2 " >
     <div class="fb-share-button" data-href="http://blacksashposters.code4sa.org/" data-layout="button_count"></div>
   </div>
-  
 </div>
 {{ content }}
 
-<footer>
+<div class="footer">
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
-        <div class="org">
-          <a href="http://blacksash.org.za">
-            <span class="thumbnail">
-              <img src="/img/blacksash_logo.png" alt="Black Sash">
-              <p>Black Sash</p>
-            </span>
-          </a>  
-        </div>
-
-        <div class="org">
-          <a href="http://code4sa.org">
-            <span class="thumbnail">
-              <img src="/img/code4sa-logo.png" alt="Code for South Africa">
-              <p>Code for South Africa</p>
-            </span>
-          </a>  
-        </div>
-
-        <div class="org">
-          <a href="http://schoolofdata.org">
-            <span class="thumbnail">
-              <img src="/img/schoolofdata.png" alt="School of Data">
-              <p>School of Data</p>
-            </span>
+      <div class="col-sm-3">
         
-          </a>  
-        </div>
+      <a href="http://blacksash.org.za">
+        <img src="/img/blacksash_logo.png" alt="Black Sash" style="width: 100%; padding: 20px; background-color: white">
+        <p class="footer-heading">Black Sash</p>
+      </a>  
+    </div>
 
-         <div class="org">
-          <a href="http://indigotrust.org.uk">
-            <span class="thumbnail">
-              <img src="/img/indigo-logo.jpg" alt="Indigo Trust">
-              <p>Indigo Trust</p>
-            </span>
-          </a>  
-        </div>
+      <div class="col-sm-3">
+        <a href="http://code4sa.org">
+          
+            <img src="/img/code4sa-logo.png" alt="Code for South Africa" style="width: 100%; padding: 20px; background-color: white">
+            <p>Code for South Africa</p>
+          
+        </a>  
+      </div>
+
+      <div class="col-sm-3">
+        <a href="http://schoolofdata.org">
+          
+            <img src="/img/schoolofdata.png" alt="School of Data" style="width: 100%; padding: 20px; background-color: white">
+            <p>School of Data</p>
+          
+      
+        </a>  
+      </div>
+
+       <div class="col-sm-3">
+        <a href="http://indigotrust.org.uk">
+          
+            <img src="/img/indigo-logo.jpg" alt="Indigo Trust" style="width: 100%; padding: 20px; background-color: white">
+            <p>Indigo Trust</p>
+          
+        </a>  
+      
       </div>
     </div>
   </div>
@@ -101,4 +102,4 @@ layout: default
  
   return t;
 }(document, "script", "twitter-wjs"));</script>
-</footer>
+</div class="footer">
