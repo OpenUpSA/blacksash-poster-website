@@ -4,7 +4,7 @@
 
 //== Colors
 
-$color-black: #000;
+$color-black: #333;
 $color-white: #fff;
 
 $color-blue: #3264ab;
@@ -29,9 +29,6 @@ $brand-primary-dark: darken($brand-primary, 10%);
 $brand-primary-darker: darken($brand-primary, 20%);
 $brand-primary-light: lighten($brand-primary, 10%);
 $brand-primary-lighter: lighten($brand-primary, 20%);
-
-$black: #000;
-$white: #fff;
 
 //== Typography
 
@@ -58,7 +55,7 @@ $link-hover-color: $brand-primary-dark;
 $link-hover-decoration: none;
 
 //** Global text color on `<body>`
-$text-color: $black;
+$text-color: $color-black;
 
 //== Navbar
 
@@ -66,11 +63,11 @@ $navbar-height: 80px !default;
 $navbar-margin-bottom: 0;
 $navbar-border-radius: 0;
 
-$navbar-default-color: $black;
+$navbar-default-color: $color-black;
 $navbar-default-bg: $color-light-gray;
 $navbar-default-border: none;
 
-$navbar-default-link-color: $black;
+$navbar-default-link-color: $color-black;
 $navbar-default-link-hover-color: $brand-primary;
 $navbar-default-link-hover-bg: transparent !default;
 $navbar-default-link-active-color: $brand-primary !default;
@@ -80,14 +77,14 @@ $navbar-default-link-disabled-bg: transparent !default;
 
 // Inverted navbar
 
-$navbar-inverse-color:                      $white;
-$navbar-inverse-bg:                         $black;
+$navbar-inverse-color:                      $color-white;
+$navbar-inverse-bg:                         $color-black;
 $navbar-inverse-border:                     none;
 
-$navbar-inverse-link-color:                 $white;
-$navbar-inverse-link-hover-color:           $white;
+$navbar-inverse-link-color:                 $color-white;
+$navbar-inverse-link-hover-color:           $color-white;
 $navbar-inverse-link-hover-bg:              transparent !default;
-$navbar-inverse-link-active-color:          $white;
+$navbar-inverse-link-active-color:          $color-white;
 $navbar-inverse-link-active-bg:             transparent !default;
 $navbar-inverse-link-disabled-color:        $color-light-gray !default;
 $navbar-inverse-link-disabled-bg:           transparent !default;
@@ -103,7 +100,7 @@ $navbar-inverse-toggle-border-color:        #333 !default;
 //== Jumbotron
 
 $jumbotron-padding: 80px;
-$jumbotron-color: $white;
+$jumbotron-color: $color-white;
 $jumbotron-bg: $brand-primary !default;
 $jumbotron-heading-color: inherit !default;
 $jumbotron-font-size: ceil(($font-size-base * 1.2));

@@ -1,8 +1,8 @@
 //== Scaffolding
-    
+
 #content {
   .container, .container-fluid {
-    background: $white;
+    background: $color-white;
     padding-bottom: 15px;
   }
   a:link,a:visited,a:active {
@@ -48,7 +48,7 @@ h5, h6 {
 //== Type
 
 hr {
-  display: block; 
+  display: block;
   height: 1px;
     border: 0;
     border-top: 2px solid rgba(0,0,0,0.2);
@@ -78,7 +78,7 @@ blockquote, blockquote.blockquote-reverse {
 
   -moz-box-shadow:    0 5px rgba(0,0,0,0.2);
   -webkit-box-shadow: 0 5px rgba(0,0,0,0.2);
-  box-shadow:         0 5px rgba(0,0,0,0.2);  
+  box-shadow:         0 5px rgba(0,0,0,0.2);
 
   .navbar-brand {
     font-size: $font-size-base * 1.4;
@@ -93,8 +93,8 @@ blockquote, blockquote.blockquote-reverse {
 
   .navbar-brand-secondary {
 
-    display: table;
-    clear: both;
+    display: inline-block;
+    padding-left: 10px;
 
     img {
       margin: -4px 0 20px 0;
@@ -106,7 +106,6 @@ blockquote, blockquote.blockquote-reverse {
       }
 
   }
-
 
   a {
     text-transform: uppercase;
@@ -138,17 +137,16 @@ blockquote, blockquote.blockquote-reverse {
     }
   }
 
-
 }
 
 //== Jumbotron
 
 .jumbotron {
   text-align: center;
-  
+
   /*Outline effect for jumbotron text*/
   text-shadow:
-    -1px -1px 0 rgba(0,0,0,0.3),  
+    -1px -1px 0 rgba(0,0,0,0.3),
     1px -1px 0 rgba(0,0,0,0.3),
     -1px 1px 0 rgba(0,0,0,0.3),
     1px 1px 0 rgba(0,0,0,0.3);
@@ -279,7 +277,7 @@ blockquote, blockquote.blockquote-reverse {
   /* box-shadow */
   -moz-box-shadow:    0 2px 1px 1px rgba(0,0,0,0.2);
   -webkit-box-shadow: 0 2px 1px 1px rgba(0,0,0,0.2);
-  box-shadow:         0 2px 1px 1px rgba(0,0,0,0.2);  
+  box-shadow:         0 2px 1px 1px rgba(0,0,0,0.2);
 
   img {
     margin: 15px;
@@ -311,7 +309,7 @@ blockquote, blockquote.blockquote-reverse {
     img {
 
       margin: 15px;
-    
+
     }
 
   }
